@@ -1,13 +1,13 @@
-----
-<h1>Guia de como utilizar o SonarQube em ambiente local no Windows.
+****
+#Guia de como utilizar o SonarQube em ambiente local no Windows.
 
-#<h6>1º Passo: É necessario instalar o [Java SE 11 ou superior](https://www.oracle.com/br/java/technologies/javase-downloads.html).
+####1º Passo: É necessario instalar o [Java SE 11 ou superior](https://www.oracle.com/br/java/technologies/javase-downloads.html).
 
-#<h6>2º Passo: Baixar a última versão do [SonarQube Community](https://www.sonarqube.org/downloads/) e extrair os arquivos para C:/SonarQube 
+####2º Passo: Baixar a última versão do [SonarQube Community](https://www.sonarqube.org/downloads/) e extrair os arquivos para C:/SonarQube 
 
-#<h6>3º Passo: Baixar a última versão versão [SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) e extrair os aarquivos para C:/SonarScanner.
+####3º Passo: Baixar a última versão versão [SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) e extrair os aarquivos para C:/SonarScanner.
 
-#<h6>4º Passo: Para que nosso projeto possa ser analisado pelo SonarQube precisamos  adicionar um arquivo de configuração na raiz do nosso projeto.
+####4º Passo: Para que nosso projeto possa ser analisado pelo SonarQube precisamos  adicionar um arquivo de configuração na raiz do nosso projeto.
 
 O arquivo deverá chamar: sonar-project.propeties
  A seguinte configuração deverá estar presente no arquivo:
@@ -19,7 +19,7 @@ sonar.sources=.
 sonar.java.binaries=. 
 sonar.sourceEncoding=UTF-8
 
-#<h6>5º Passo: Você poderá iniciar o SonarQube manualmetne ou então instalar como um serviço:
+####5º Passo: Você poderá iniciar o SonarQube manualmetne ou então instalar como um serviço:
 >Manualmente:
 Execute o CMD como administrador.
 Navegue até a pasta onde se encontra o executor do SonarQube
@@ -27,7 +27,7 @@ Ex: C:\SonarWube\bin\windows-x86-64
 Execute o arquivo StartSonar.bat
 Neste momento, o site do SonarQube ficará disponível na porta http://localhost:9000/
 
-#<h6>7º Você pode iniciar a analise do seu projeto com o SonarScanner:
+####7º Você pode iniciar a analise do seu projeto com o SonarScanner:
 >Executar a analise:
 Execute o CMD como administrador.
 Navegue até a pasta do projeto onde está o seu .sln junto com seu arquivo de configuração.
