@@ -74,7 +74,7 @@ Após executar o scanner, o processo de analise do projeto será executado. O re
 
 
 -----
-### Após clicar no título do projeto terá uma visão mais detalhada  dos dados
+### Após clicar no título do projeto terá uma visão mais detalhada  dos dados.
 
 ![](image/debitoTecnico.png)
 
@@ -110,7 +110,7 @@ Ao clicarmos em "Why is this an issue?" somos direcionados para a solução do e
 ![](image/perfilDeQualidade.png)
 
 ----
-### Metas de qualidade é o local onde é definido os parametros para  aprovação do código
+### Metas de qualidade é o local onde é definido os parametros para  aprovação do código.
 
 ![](image/metasDeQualidade.png)
 
