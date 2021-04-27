@@ -38,8 +38,7 @@ Após executar o scanner, o processo de analise do projeto será executado. O re
 
 ***
 
-<h3> Qualidade contítua do código: Sonar avalia os riscos do projeto com base na confiabilidade, segurança e manutenção.
--
+#### Qualidade contítua do código: Sonar avalia os riscos do projeto com base na confiabilidade, segurança e manutenção.
 
 *Confiabilidade -> Incidência de bugs*
 *Segurança -> Incidência de vulnerabilidades*
