@@ -1,10 +1,13 @@
 ----
-<h1>Guia de como utilizar o SonarQube em ambiente remoto no Windows.
+<h1>Guia de como utilizar o SonarQube em ambiente local no Windows.
 
-#<h6>1º Passo: É necessario instalar o Java SE 11 ou superior.
-<h6>2º Passo: Baixar a última versão do SonarQube Community e extrair os arquivos para C:/SonarQube 
-<h6>3º Passo: Baixar a última versão versão SonarScanner e extrair os aarquivos para C:/SonarScanner.
-<h6>4º Passo: Para que nosso projeto possa ser analisado pelo SonarQube precisamos  adicionar um arquivo de configuração na raiz do nosso projeto.
+#<h6>1º Passo: É necessario instalar o [Java SE 11 ou superior](https://www.oracle.com/br/java/technologies/javase-downloads.html).
+
+#<h6>2º Passo: Baixar a última versão do [SonarQube Community](https://www.sonarqube.org/downloads/) e extrair os arquivos para C:/SonarQube 
+
+#<h6>3º Passo: Baixar a última versão versão [SonarScanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) e extrair os aarquivos para C:/SonarScanner.
+
+#<h6>4º Passo: Para que nosso projeto possa ser analisado pelo SonarQube precisamos  adicionar um arquivo de configuração na raiz do nosso projeto.
 
 O arquivo deverá chamar: sonar-project.propeties
  A seguinte configuração deverá estar presente no arquivo:
