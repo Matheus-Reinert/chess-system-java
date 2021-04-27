@@ -77,3 +77,31 @@ Após executar o scanner, o processo de analise do projeto será executado. O re
 ### Após clicar no título do projeto terá uma visão mais detalhada  dos dados
 
 ![](image/GeralDoProjeto.png)
+
+Code Smells: Para cada problema no código o SonarQube realiza um cálculo que resulta  no total de tempo de divida técnica do projeto. Como visto na foto acima nosso projeto tem um total de 1 dia e 1 hora de débito técnico, esse valor corresponde aos 59 code smells.
+
+### Na guia "Problems" é possível filtrar os problemas do projeto de acordo com o seu tipo.
+
+>FOTO filtros
+
+Ao selecionar um filtro ele nos indica onde o problema ocorre no código e qual o seu nível de gravidade.
+
+Quando filtramos por "Gravidade" obtemos informações como quem realizou aquala atividade e tempo de esforço para solucionar o problema.
+
+>Foto gravidade
+
+Ao clicarmos sobre o item desejado sermos direcionados a parte do código onde o problema se encontra.
+
+> Foto gravidade no código
+
+Ao clicarmos nos tres pontinhos é possível observar a solução para o problema.
+
+> Foto solução
+
+### Na gui a "Rules" estão disponíveis as regras de varias linguagens, é através dessas regras que o SonarQube realiza a analise do código.
+
+> Foto guia Regras
+
+### Metas de qualidade é o local onde é definido os parametros para  aprovação do código
+
+> Foto guia metas de qualidade
